@@ -25,7 +25,12 @@ String interpretarIMC(double imc) {
     return "Seu peso está normal.";
   } else if (imc >= 25 && imc < 30) {
     return "Você está com sobrepeso.";
-  } else {
-    return "Você está obeso.";
+  } else if (imc >= 30 && imc < 35) {
+    return "Você está obeso grau I." {
+   } else if (imc >= 35 && imc < 40) {
+    return "Voce esta obeso grau II"{ 
+  } else if (imc >= 40 && imc < 45) {
+    return "Voce esta obeso grau III"
   }
 }
+
